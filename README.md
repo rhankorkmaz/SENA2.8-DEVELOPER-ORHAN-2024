@@ -1,4 +1,4 @@
-# SENA2.8 BAŞARILI 2.3 SUCCES
+# SENA2.8 BAŞARILI 2.4 SUCCES
 
 https://discord.gg/tPxXxFgsme
 
