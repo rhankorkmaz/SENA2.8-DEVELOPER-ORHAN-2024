@@ -1,0 +1,3 @@
+mServerName[ts2_RELAY]
+mServerPort[10069]
+mWorldNumber[1]

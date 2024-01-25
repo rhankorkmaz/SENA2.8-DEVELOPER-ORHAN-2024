@@ -1,0 +1,9 @@
+taskkill /im TROY_GAMELOG.exe
+taskkill /im TS2PLAYUSER.exe
+taskkill /im TS2CENTER.exe
+taskkill /im TS2RELAY.exe
+taskkill /im TS2EXTRA.exe
+taskkill /im TS2LOGIN.exe
+taskkill /im TS2SHOP.exe
+taskkill /im TS2ZONE.exe
+taskkill /im cmd.exe

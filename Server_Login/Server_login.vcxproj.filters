@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MyDB">
+      <UniqueIdentifier>{7c832603-6cce-4a70-abba-73c1b9722006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyWork">
+      <UniqueIdentifier>{ab705e20-c99f-437b-9966-03f4681cb95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySQLClient">
+      <UniqueIdentifier>{eb00f019-e7ec-4b8a-9b51-491d2315c648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyTransfer">
+      <UniqueIdentifier>{7a624a81-cb4b-4d5e-9759-c0a54238b1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MyServer">
+      <UniqueIdentifier>{17b19994-c8c1-4324-9b1d-9432e83d6a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MyUser">
+      <UniqueIdentifier>{4a5456cf-f5de-4dd7-b7a1-bd08a755f82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyUpperCom">
+      <UniqueIdentifier>{94ec921c-7851-4b00-aebd-dd5b55d6c7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyDB\MyGame">
+      <UniqueIdentifier>{7ce1225a-3cb9-4c9d-a9e8-c4107db3241c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\cts_mysql.cpp">
+      <Filter>MySQLClient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TimeLog.cpp">
+      <Filter>MySQLClient</Filter>
+    </ClCompile>
+    <ClCompile Include="S05_MyTransfer.cpp">
+      <Filter>MyTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame01.cpp">
+      <Filter>MyDB\MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S03_MyUser.cpp">
+      <Filter>MyUser</Filter>
+    </ClCompile>
+    <ClCompile Include="S06_MyUpperCom.cpp">
+      <Filter>MyUpperCom</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork01.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork02.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDB.cpp">
+      <Filter>MyDB</Filter>
+    </ClCompile>
+    <ClCompile Include="Myserver.cpp">
+      <Filter>MyServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shengming.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cts_mysql.h">
+      <Filter>MySQLClient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TimeLog.h">
+      <Filter>MySQLClient</Filter>
+    </ClInclude>
+    <ClInclude Include="H05_MyTransfer.h">
+      <Filter>MyTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="H07_MyGame.h">
+      <Filter>MyDB\MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="H03_MyUser.h">
+      <Filter>MyUser</Filter>
+    </ClInclude>
+    <ClInclude Include="H06_MyUpperCom.h">
+      <Filter>MyUpperCom</Filter>
+    </ClInclude>
+    <ClInclude Include="H04_MyWork.h">
+      <Filter>MyWork</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDB.h">
+      <Filter>MyDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Myserver.h">
+      <Filter>MyServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\MAIN_DataTypeAndProtocol.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

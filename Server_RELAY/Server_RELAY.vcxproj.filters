@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{58b98840-c68a-4363-a6cc-def9c597cadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyTransfer">
+      <UniqueIdentifier>{4f25e8be-2e44-4ba0-81e6-43a473dfb067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MyServer">
+      <UniqueIdentifier>{14444ab7-33e9-4ed6-9fee-e14e85ab522e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyWork">
+      <UniqueIdentifier>{73c1d5c2-cb54-4c35-ac7f-b0726467e8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MyUser">
+      <UniqueIdentifier>{ca9f3791-c934-45fa-8c9e-4f4b69897a0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server_RELAY.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TimeLog.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="S02_MyServer.cpp">
+      <Filter>MyServer</Filter>
+    </ClCompile>
+    <ClCompile Include="S03_MyUser.cpp">
+      <Filter>MyUser</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork01.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork02.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="S05_MyTransfer.cpp">
+      <Filter>MyTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="S06_MyUpperCom.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shengming.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TimeLog.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="H02_MyServer.h">
+      <Filter>MyServer</Filter>
+    </ClInclude>
+    <ClInclude Include="H03_MyUser.h">
+      <Filter>MyUser</Filter>
+    </ClInclude>
+    <ClInclude Include="H04_MyWork.h">
+      <Filter>MyWork</Filter>
+    </ClInclude>
+    <ClInclude Include="H05_MyTransfer.h">
+      <Filter>MyTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="H06_MyUpperCom.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

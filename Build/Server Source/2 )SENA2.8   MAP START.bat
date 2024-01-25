@@ -1,0 +1,6 @@
+:: Guan
+START TS2ZONE.exe 11601	1
+:: Fujin
+START TS2ZONE.exe 11606	6
+:: Jinong
+START TS2ZONE.exe 11611	11

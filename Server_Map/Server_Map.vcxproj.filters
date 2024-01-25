@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="zlib">
+      <UniqueIdentifier>{8c85e28f-3944-45a8-99c1-077551bd6a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{e5242f83-d143-476e-a01b-e10c5b2bb695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{fd6731ab-6d7c-463b-8df4-5b9a1e6e25a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MySummonSystem">
+      <UniqueIdentifier>{520b73cd-c1f3-4f5d-bf3a-f08ab69857eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyTransfer">
+      <UniqueIdentifier>{d285f178-de9f-46cc-9152-25bb8247fa31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MyWorld">
+      <UniqueIdentifier>{dbd21244-47c9-43b3-96cc-10bfec7daff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MyServer">
+      <UniqueIdentifier>{a5decc13-6fe6-4a4f-8fca-763eaa4582b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyWork">
+      <UniqueIdentifier>{08cd0b4a-ee06-46c4-9dc0-9e4898f4404a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGameSystem">
+      <UniqueIdentifier>{50472a22-7bf8-4f8b-8e0f-5d0a3e3c7b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyUser">
+      <UniqueIdentifier>{3649e49e-6972-42ea-9c62-c1a23b2fcec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyUpperCom">
+      <UniqueIdentifier>{49d863ed-4aaa-457d-9593-d4de9f4a0d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KarakterStatlar">
+      <UniqueIdentifier>{235fbbd6-498d-43e7-a30d-bc2347296cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyUser\SphinxAlgorithm">
+      <UniqueIdentifier>{3acdab82-d18a-44c5-b0c6-6926
+	  23506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{ccf2f9f9-ca4a-419f-9eb0-76d87bac389c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server_Map.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\TimeLog.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="S02_MyServer.cpp">
+      <Filter>MyServer</Filter>
+    </ClCompile>
+    <ClCompile Include="S03_MyUser.cpp">
+      <Filter>MyUser</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork01.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork02.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork03.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork04.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="H05_MyTransfer.cpp">
+      <Filter>MyTransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame01.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame02.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame03.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame04.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame05.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame06.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame07.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="S10_MySummonSystem.cpp">
+      <Filter>MySummonSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="S08_MyGameSystem.cpp">
+      <Filter>MyGameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="S09_MyWorld.cpp">
+      <Filter>MyWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="S11_Sphinx.cpp">
+      <Filter>MyUser\SphinxAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="S12_SphinxAlgorithm.cpp">
+      <Filter>MyUser\SphinxAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="S13_Math_For_Server.cpp">
+      <Filter>MyUser\SphinxAlgorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="S06_MyUpperCom.cpp">
+      <Filter>MyUpperCom</Filter>
+    </ClCompile>
+    <ClCompile Include="Mana.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="AtakPower.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="Defans.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="AtakRate.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTypeSetBonus.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="DiğerStatlar.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket and Refine.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="S04_MyWork05.cpp">
+      <Filter>MyWork</Filter>
+    </ClCompile>
+    <ClCompile Include="MapKontrolleri.cpp">
+      <Filter>KarakterStatlar</Filter>
+    </ClCompile>
+    <ClCompile Include="S07_MyGame08.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shengming.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TimeLog.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="S02_MyServer.h">
+      <Filter>MyServer</Filter>
+    </ClInclude>
+    <ClInclude Include="S03_MyUser.h">
+      <Filter>MyUser</Filter>
+    </ClInclude>
+    <ClInclude Include="S04_MyWork01.h">
+      <Filter>MyWork</Filter>
+    </ClInclude>
+    <ClInclude Include="H05_MyTransfer.h">
+      <Filter>MyTransfer</Filter>
+    </ClInclude>
+    <ClInclude Include="H06_MyUpperCom.h">
+      <Filter>MyUpperCom</Filter>
+    </ClInclude>
+    <ClInclude Include="H10_MySummonSystem.h">
+      <Filter>MySummonSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="H08_MyGameSystem.h">
+      <Filter>MyGameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="H09_MyWorld.h">
+      <Filter>MyWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="H11_Sphinx.h">
+      <Filter>MyUser\SphinxAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="H12_SphinxAlgorithm.h">
+      <Filter>MyUser\SphinxAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="H13_Math_For_Server.h">
+      <Filter>MyUser\SphinxAlgorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="H07_MyGmae.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Atomic.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
